@@ -316,7 +316,7 @@ img.mfp-img {
 
   .mfp-close, .mfp-close:focus {
     right: 0; } }
-/* Inline popup (type inline) 
+/* Inline popup (type inline)
 ------------------------------- */
 .inline-popup {
   position: relative;
@@ -485,6 +485,7 @@ img.mfp-img {
   .navbar-default .navbar-brand,
   .navbar-default .okayNav li a {
     transition-duration: 1s; }
+
   .navbar-default .okayNav li a {
     color: #636466;
     font-weight: 500;

@@ -28,7 +28,7 @@ class App extends Component {
                     <div className="container">
 
                         <div className="col-sm-4 col-xs-6">
-                            <a className="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="site logo" /></a>
+                            <a className="navbar-brand" href="index.html"><img src="assets/img/myName2.png" alt="site logo" /></a>
                         </div>
 
                         <div className="col-sm-8 col-xs-6">
@@ -36,9 +36,7 @@ class App extends Component {
                                 <ul>
                                     <li><a href="#welcome">HOME</a> </li>
                                     <li><a href="#about">ABOUT</a> </li>
-                                    <li><a href="#services">SERVICE</a> </li>
                                     <li><a href="#portfolio">PORTFOLIO</a> </li>
-                                    <li><a href="#crew">TEAM</a> </li>
                                     <li><a href="#blog">BLOG</a> </li>
                                     <li><a href="#contact">CONTACT</a> </li>
                                 </ul>
@@ -73,12 +71,12 @@ class App extends Component {
                     <div className="col-md-6 about-content wow fadeInLeft">
 
                         <header className="about-header text-left">
-                            <h2>ABOUT GRAXPO</h2>
+                            <h2> RAY KE</h2>
                         </header>
-
+                        I am a full stack developer based in beautiful Toronto, Canada.
 
                         <p className="about-text">
-                            In gnissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
                         </p>
                         <a href="#" className="btn-rect btn-about">LEARN MORE!</a>
 
@@ -442,94 +440,6 @@ class App extends Component {
                 </div>
             </div>
         </section>
-
-
-        <section id="services">
-            <div className="container section-padding text-center">
-
-                <header className="section-header">
-                    <h2 className="wow fadeInDown">OUR BEST SERVICE</h2>
-                    <p className="wow fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
-                </header>
-
-                <div className="row">
-
-                    <div className="col-sm-6 col-md-4">
-                        <div className="box service-box">
-
-                            <i className="fa fa-magnet"></i>
-
-                            <h3>USER INTERFACE</h3>
-
-                            <p>Lorem Ipsum is simply dummy text thprinting andthe industrys standard dummy text lorem Ipsum </p>
-                        </div>
-                    </div>
-
-
-                    <div className="col-sm-6 col-md-4">
-                        <div className="box service-box">
-
-                            <i className="fa fa-bookmark"></i>
-
-                            <h3>Bookmarks</h3>
-
-                            <p>Lorem Ipsum is simply dummy text thprinting andthe industrys standard dummy text lorem Ipsum </p>
-                        </div>
-                    </div>
-
-
-                    <div className="col-sm-6 col-md-4">
-                        <div className="box service-box">
-
-                            <i className="fa fa-flag"></i>
-
-                            <h3>Flag Nation</h3>
-
-                            <p>Lorem Ipsum is simply dummy text thprinting andthe industrys standard dummy text lorem Ipsum </p>
-                        </div>
-                    </div>
-
-
-                    <div className="col-sm-6 col-md-4">
-                        <div className="box service-box">
-
-                            <i className="fa fa-rocket"></i>
-
-                            <h3>Rocket</h3>
-
-                            <p>Lorem Ipsum is simply dummy text thprinting andthe industrys standard dummy text lorem Ipsum </p>
-                        </div>
-                    </div>
-
-
-                    <div className="col-sm-6 col-md-4">
-                        <div className="box service-box">
-
-                            <i className="fa fa-headphones"></i>
-
-                            <h3>Headphone</h3>
-
-                            <p>Lorem Ipsum is simply dummy text thprinting andthe industrys standard dummy text lorem Ipsum </p>
-                        </div>
-                    </div>
-
-
-                    <div className="col-sm-6 col-md-4">
-                        <div className="box service-box">
-
-                            <i className="fa fa-flash"></i>
-
-                            <h3>Trending</h3>
-
-                            <p>Lorem Ipsum is simply dummy text thprinting andthe industrys standard dummy text lorem Ipsum </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
 
         <section id="exploring">
             <div className="overlay">
@@ -1024,149 +934,6 @@ class App extends Component {
         </section>
 
 
-        <section id="crew">
-            <div className="container section-padding">
-
-                <header className="section-header text-center">
-                    <h2>MEET OUR CREW</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
-                </header>
-
-                <div className="row">
-                    <div className="col-md-3 col-sm-6">
-
-                        <div className="member wow flipInY">
-                            <div className="member-thumb">
-
-                                <img src="assets/img/member/member-one.png" alt="memeber" />
-                                <div className="overlay"></div>
-
-                                <div className="member-social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-linkedin"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-
-                            <div className="member-info text-center">
-                                <h3>Xon Xoe</h3>
-                                <p>Front-end Developer</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-
-                        <div className="member wow flipInY" data-wow-delay="0.2s">
-                            <div className="member-thumb">
-
-                                <img src="assets/img/member/member-two.png" alt="memeber" />
-                                <div className="overlay"></div>
-
-                                <div className="member-social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-linkedin"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-
-                            <div className="member-info text-center">
-                                <h3>Hit Girl</h3>
-                                <p>Love Ninja</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-
-                        <div className="member wow flipInY" data-wow-delay="0.4s">
-                            <div className="member-thumb">
-
-                                <img src="assets/img/member/member-three.png" alt="memeber" />
-                                <div className="overlay"></div>
-
-                                <div className="member-social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-linkedin"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-
-                            <div className="member-info text-center">
-                                <h3>NA Shoaib</h3>
-                                <p>CEO &amp; Founder</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-
-                        <div className="member wow flipInY" data-wow-delay="0.6s">
-                            <div className="member-thumb">
-
-                                <img src="assets/img/member/member-four.png" alt="memeber" />
-                                <div className="overlay"></div>
-
-                                <div className="member-social">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-linkedin"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-
-                            <div className="member-info text-center">
-                                <h3>RAF Redwan</h3>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="testimonial">
-            <div className="overlay">
-                <div className="container section-padding text-center">
-
-                    <header className="section-header">
-                        <h2 className="wow fadeInDown">Testimonial</h2>
-                        <h3 className="wow fadeInUp">What out client say </h3>
-                    </header>
-
-                    <div className="row">
-                        <div className="col-md-8 col-md-offset-2">
-                            <div id="owl-tm" className="owl-carousel owl-theme">
-                                <div className="oc-item">
-
-                                    <div className="client-image"><img src="assets/img/man-one.png" alt="user 1"/></div>
-                                    <div className="client-comment">
-                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,m quia.</blockquote>
-                                    </div>
-
-                                    <div className="client-info">
-                                        <h3>Raf Redwan</h3>
-                                    </div>
-                                </div>
-                                <div className="oc-item">
-
-                                    <div className="client-image"><img src="assets/img/man-one.png" alt="user 1"/></div>
-                                    <div className="client-comment">
-                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,m quia.</blockquote>
-                                    </div>
-
-                                    <div className="client-info">
-                                        <h3>Jiner Badsha Rahim</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
         <section id="blog">
@@ -1233,111 +1000,27 @@ class App extends Component {
         </section>
 
 
-        <section id="price">
-            <div className="container section-padding text-center">
-
-                <header className="section-header">
-                    <h2>PRICING TABLE</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
-                </header>
-
-                <div className="row">
-                    <div className="col-md-4">
-
-                        <ul className="plan-features wow bounceIn">
-
-                            <li className="plan-name">Basic</li>
-                            <li>10 User</li>
-                            <li>Unlimited Forums</li>
-                            <li>Unlimited Reports</li>
-                            <li>+</li>
-                            <li>+</li>
-                            <li>+</li>
-                            <li>+</li>
-
-                            <li className="plan-signup"><a href="#" className="btn btn-rect btn-signup">Sign Up</a></li>
-                        </ul>
-
-                    </div>
-                    <div className="col-md-4">
-
-                        <ul className="plan-features wow bounceIn">
-
-                            <li className="plan-name">Popular</li>
-                            <li>60 User</li>
-                            <li>Unlimited Forums</li>
-                            <li>Unlimited Reports</li>
-                            <li>+</li>
-                            <li>+</li>
-                            <li>+</li>
-                            <li>+</li>
-
-                            <li className="plan-signup"><a href="#" className="btn btn-rect btn-signup">Sign Up</a></li>
-                        </ul>
-
-                    </div>
-                    <div className="col-md-4">
-
-                        <ul className="plan-features wow bounceIn">
-
-                            <li className="plan-name">Enterprise</li>
-                            <li>Unlimited User</li>
-                            <li>Unlimited Forums</li>
-                            <li>Unlimited Reports</li>
-                            <li>+</li>
-                            <li>+</li>
-                            <li>+</li>
-                            <li>+</li>
-
-                            <li className="plan-signup"><a href="#" className="btn btn-rect btn-signup">Sign Up</a></li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="call-to-action">
-            <h2 className="hidden">Call To Action</h2>
-            <div className="container section-padding">
-                <div className="row">
-                    <div className="col-sm-7 col-sm-offset-1 wow fadeInLeft">
-
-                        <p className="action-text">Need a cpoy of this Beautiful theme so what are you waiting </p>
-                    </div>
-                    <div className="col-sm-4 wow fadeInRight">
-
-                        <a href="#" className="btn-rect btn-buy">PURCHASE NOW</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
         <section id="contact">
             <div className="container section-padding">
 
                 <header className="section-header text-center">
                     <h2 className="wow fadeInDown">GET IN TOUCH</h2>
-                    <p className="wow fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
+                    <p className="wow fadeInUp"></p>
                 </header>
 
                 <div className="row">
                     <div className="col-sm-6 col-md-4">
                         <div className="footer-logo">
 
-                            <img src="assets/img/footer-logo.png" alt="logo" />
+                            <img src="assets/img/myName2.png" alt="logo" />
                         </div>
 
                         <p className="footer-about-text">
-                            In gnissimos ducimus qui blandit aesentium voluptatum deleniti atque corrupti quos dolores et quas
+                          Business, Technology, Creativity with Passion.
                         </p>
 
                         <div className="follow-us">
-                            <h4>Follow Us</h4>
+                            <h4>Contact me</h4>
                             <a href=""><i className="fa fa-facebook"></i></a>
                             <a href=""><i className="fa fa-dribbble"></i></a>
                             <a href=""><i className="fa fa-google-plus"></i></a>
@@ -1390,7 +1073,7 @@ class App extends Component {
                     <div className="col-md-6">
                         <div className="copyright">
 
-                            <p>&copy; Shape square All Rights Reserved .</p>
+                            <p>&copy; Ray Ke</p>
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -1398,9 +1081,7 @@ class App extends Component {
                         <nav className="footer-nav">
                             <a href="#home">HOME</a>
                             <a href="#about">ABOUT</a>
-                            <a href="#services">SERVICE</a>
                             <a href="#portfolio">PORTFOLIO</a>
-                            <a href="#crew">TEAM</a>
                             <a href="#blog">BLOG</a>
                             <a href="#contact">CONTACT</a>
                         </nav>
