@@ -515,7 +515,7 @@ img.mfp-img {
 -----------------------------------------------
  */
 #welcome {
-  background-image: url("../img/bg-image/welcome-bg.jpg");
+  background-image: url("../img/bg-image/welcome-bg.jpeg");
   position: relative; }
   #welcome .scroll-down {
     color: #00bfa5;
