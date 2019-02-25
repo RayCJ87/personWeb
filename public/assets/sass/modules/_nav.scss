@@ -1,0 +1,96 @@
+/*
+-----------------------------------------------
+	Navbar Style
+-----------------------------------------------
+ */
+
+%nav-after {
+	border-bottom: 1px solid $default-color;
+	content: "";
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	width: 0;
+	@extend %transition;
+}
+
+%nav-hover-after {
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+
+.navbar-default {
+
+	background-color: transparent;
+    border: 0;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    @extend %transition;
+	transition-duration: 1s;
+
+    .navbar-brand,
+    .okayNav li a {
+        @include padding-top-bottom(50px, 10px);
+        @include padding-left-right(0, 0);
+        height: auto;
+        width: auto;
+
+        @include MQ($T, $maxw) {
+	    	padding-top: 20px;
+	    }
+    }
+
+	.navbar-brand,
+	.okayNav li a {
+		@extend %transition;
+		transition-duration: 1s;
+	}
+
+	.okayNav li a {
+		color: $button-text-color;
+		font-weight: 500;
+		position: relative;
+		text-decoration: none;
+		@include margin-left(31px);
+		@include margin-top(5px);
+		@include overflow();
+
+		&::after {
+			@extend %nav-after;
+			bottom: 0;
+		}
+
+		&:hover::after {
+			@extend %nav-hover-after;
+		}
+	}
+
+	.okayNav__nav--invisible li a {
+		@include margin-top(0);
+	}
+
+}
+
+
+.current-menu-item {
+	@extend %nav-after;
+	@extend %nav-hover-after;
+	bottom: 0;
+}
+
+.okayNav.white-nav {
+
+	li a {
+		color: $white-color !important;
+	}
+
+	.okayNav__nav--invisible.nav-open a {
+		color: #333b46 !important;
+	}
+
+	.okayNav__menu-toggle span {
+		background-color: $white-color;
+	}
+}
