@@ -37,7 +37,6 @@ class App extends Component {
                                     <li><a href="#welcome">HOME</a> </li>
                                     <li><a href="#about">ABOUT</a> </li>
                                     <li><a href="#portfolio">PORTFOLIO</a> </li>
-                                    <li><a href="#blog">BLOG</a> </li>
                                     <li><a href="#contact">CONTACT</a> </li>
                                 </ul>
                             </nav>
@@ -56,11 +55,7 @@ class App extends Component {
 
                     </div>
                 </div>
-                <div className="scroll-down">
 
-                    <a href="#about" className="vline"><span></span></a>
-                    <p>Scroll Down</p>
-                </div>
             </div>
         </header>
 
@@ -93,96 +88,44 @@ class App extends Component {
         </section>
 
 
-        <section id="what-we-do">
-            <div className="container section-padding">
-
-                <header className="section-header text-center">
-                    <h2 className="wow fadeInDown">Skills</h2>
-                    <p className="wow fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
-                </header>
-
-                <div className="row">
-                    <div className="col-md-6">
-
-                        <div className="box box-wide">
-                            <i className="fa fa-desktop"></i>
-                            <div className="box-wide-inner">
-                                <h3>UI / UX Design</h3>
-                                <div className="uline"></div>
-                                <p>Lorem Ipsum is simply dummy text thprinting andthe industry's standard dummy text lorem Ipsum is simply dummy</p>
-                            </div>
-                        </div>
-
-
-                        <div className="box box-wide">
-                            <i className="fa fa-mobile"></i>
-                            <div className="box-wide-inner">
-                                <h3>APP DESIGN</h3>
-                                <div className="uline"></div>
-                                <p>Lorem Ipsum is simply dummy text thprinting andthe industry's standard dummy text lorem Ipsum is simply dummy</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="col-md-6">
-
-                        <div className="box box-wide">
-                            <i className="fa fa-star"></i>
-                            <div className="box-wide-inner">
-                                <h3>BRANDING &amp; IDENTY </h3>
-                                <div className="uline"></div>
-                                <p>Lorem Ipsum is simply dummy text thprinting andthe industry's standard dummy text lorem Ipsum is simply dummy</p>
-                            </div>
-                        </div>
-
-
-                        <div className="box box-wide">
-                            <i className="fa fa-edit"></i>
-                            <div className="box-wide-inner">
-                                <h3>PRINT DESIGN</h3>
-                                <div className="uline"></div>
-                                <p>Lorem Ipsum is simply dummy text thprinting andthe industry's standard dummy text lorem Ipsum is simply dummy</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
 
         <section id="step">
             <div className="container section-padding text-center">
 
                 <header className="section-header">
-                    <h2 className="wow fadeInDown">THREE SIMPLE STEPS</h2>
-                    <p className="wow fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
+                    <h2 className="wow fadeInDown">Skills</h2>
+                    <p className="wow fadeInUp"></p>
                 </header>
 
                 <div className="row step-line">
 
                     <div className="col-sm-4 step-box algin-left">
-                        <i className="fa fa-tablet"></i>
-                        <h3>INTEGER VENEATIS</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        <i className="fa fa-desktop"></i>
+                        <h3>Web Development</h3>
+                        <p>
+                          <span>Front end - React, HTML, CSS, Ajax, JQuery</span><br />
+                          <span>Back end  - Javascript, Node.js, Express, Rails</span>
+                        </p>
                     </div>
 
 
                     <div className="col-sm-4 step-box align-center">
-                        <i className="fa fa-signal"></i>
-                        <h3>Moja Loss</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        <i className="fa fa-object-group"></i>
+                        <h3>Programming</h3>
+                        <p>
+                          <span>Java, Javascript, Python, Ruby</span><br />
+                          <span>SQL, MongoDB, PostgreSQL</span>
+                        </p>
                     </div>
 
 
                     <div className="col-sm-4 step-box align-right">
-                        <i className="fa fa-random"></i>
-                        <h3>KEW AMARE MAIRALA</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        <i className="fa fa-bar-chart"></i>
+                        <h3>Business Management</h3>
+                        <p>
+                          <span>B2B selling, Account management, <br />
+                          Supplier management, Strategic sourcing</span><br />
+                        </p>
                     </div>
 
                 </div>
@@ -208,10 +151,9 @@ class App extends Component {
 
                             <ul id="filter">
                                 <li><a className="active" href="#" data-group="all">All Categories</a></li>
-                                <li><a href="#" data-group="print">Web Dev</a></li>
-                                <li><a href="#" data-group="identity">Mobile Applications</a></li>
-                                <li><a href="#" data-group="branding">Games</a></li>
-                                <li><a href="#" data-group="web">Web</a></li>
+                                <li><a href="#" data-group="web">Web Development</a></li>
+                                <li><a href="#" data-group="mobile">Mobile Applications</a></li>
+                                <li><a href="#" data-group="games">Games</a></li>
                             </ul>
 
                         </div>
@@ -223,17 +165,16 @@ class App extends Component {
 
                             <div id="pfolio-content">
 
-                                <div className="item item-width " data-groups='["all", "print"]'>
+                                <div className="item item-width " data-groups='["all", "web", "games"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
                                             <a href="#portfolio-1" className="project-link inline-popup-trigger">
                                                 <span className="hover-bg"></span>
 
-                                                <img src="assets/img/item/portfolio-one.jpg" alt="Featured Work" height="280" width="331" />
+                                                <img src="assets/img/item/jbgame.png" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
+                                                    <h4>Jurrasic Brawl</h4>
                                                     <div className="uline"></div>
                                                 </div>
                                             </a>
@@ -274,7 +215,7 @@ class App extends Component {
                                 </div>
 
 
-                                <div className="item item-width " data-groups='["all", "identity"]'>
+                                <div className="item item-width " data-groups='["all", "mobile"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
                                             <a href="#portfolio-2" className="project-link inline-popup-trigger">
@@ -283,8 +224,7 @@ class App extends Component {
                                                 <img src="assets/img/item/portfolio-two.jpg" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
+                                                    <h4>Visit Canada</h4>
                                                     <div className="uline"></div>
                                                 </div>
                                             </a>
@@ -325,7 +265,7 @@ class App extends Component {
                                 </div>
 
 
-                                <div className="item item-width " data-groups='["all", "branding"]'>
+                                <div className="item item-width " data-groups='["all", "web"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
                                             <a href="#portfolio-3" className="project-link inline-popup-trigger">
@@ -334,7 +274,6 @@ class App extends Component {
                                                 <img src="assets/img/item/portfolio-three.jpg" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
                                                     <h4>RAF REDWAN</h4>
                                                     <div className="uline"></div>
                                                 </div>
@@ -376,7 +315,7 @@ class App extends Component {
                                 </div>
 
 
-                                <div className="item item-width " data-groups='["all", "identity"]'>
+                                <div className="item item-width " data-groups='["all", "web"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
                                             <a href="#portfolio-4" className="project-link inline-popup-trigger">
@@ -385,8 +324,7 @@ class App extends Component {
                                                 <img src="assets/img/item/portfolio-four.jpg" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
+                                                    <h4>Chatty app</h4>
                                                     <div className="uline"></div>
                                                 </div>
                                             </a>
@@ -427,209 +365,6 @@ class App extends Component {
                                 </div>
 
 
-                                <div className="item item-width " data-groups='["all", "web"]'>
-                                    <div className="item-wrap">
-                                        <div className="item-inner">
-                                            <a href="#portfolio-5" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
-
-                                                <img src="assets/img/item/portfolio-five.jpg" alt="Featured Work" height="280" width="331" />
-
-                                                <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
-                                                    <div className="uline"></div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div id="portfolio-5" className="inline-popup mfp-hide">
-                                            <div className="inline-popup-inner">
-                                                <div className="row">
-                                                    <div className="col-md-8 project-main">
-
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
-                                                    </div>
-                                                    <div className="col-md-4 project-sidebar">
-
-                                                        <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Mane Moe</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
-                                                        </div>
-
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a className="inline-popup-close" href="#"><i className="fa fa-times"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                                <div className="item item-width " data-groups='["all", "web"]'>
-                                    <div className="item-wrap">
-                                        <div className="item-inner">
-                                            <a href="#portfolio-6" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
-
-                                                <img src="assets/img/item/portfolio-six.jpg" alt="Featured Work" height="280" width="331" />
-
-                                                <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
-                                                    <div className="uline"></div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div id="portfolio-6" className="inline-popup mfp-hide">
-                                            <div className="inline-popup-inner">
-                                                <div className="row">
-                                                    <div className="col-md-8 project-main">
-
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
-                                                    </div>
-                                                    <div className="col-md-4 project-sidebar">
-
-                                                        <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Sexana</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
-                                                        </div>
-
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a className="inline-popup-close" href="#"><i className="fa fa-times"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                                <div className="item item-width " data-groups='["all", "print"]'>
-                                    <div className="item-wrap">
-                                        <div className="item-inner">
-                                            <a href="#portfolio-7" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
-
-                                                <img src="assets/img/item/portfolio-seven.jpg" alt="Featured Work" height="280" width="331" />
-
-                                                <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
-                                                    <div className="uline"></div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div id="portfolio-7" className="inline-popup mfp-hide">
-                                            <div className="inline-popup-inner">
-                                                <div className="row">
-                                                    <div className="col-md-8 project-main">
-
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
-                                                    </div>
-                                                    <div className="col-md-4 project-sidebar">
-
-                                                        <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Sexona</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
-                                                        </div>
-
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a className="inline-popup-close" href="#"><i className="fa fa-times"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                                <div className="item item-width " data-groups='["all", "web"]'>
-                                    <div className="item-wrap">
-                                        <div className="item-inner">
-                                            <a href="#portfolio-8" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
-
-                                                <img src="assets/img/item/portfolio-eight.jpg" alt="Featured Work" height="280" width="331" />
-
-                                                <div className="item-info text-left">
-                                                    <h3>THE WINTER TAL’S</h3>
-                                                    <h4>RAF REDWAN</h4>
-                                                    <div className="uline"></div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div id="portfolio-8" className="inline-popup mfp-hide">
-                                            <div className="inline-popup-inner">
-                                                <div className="row">
-                                                    <div className="col-md-8 project-main">
-
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
-                                                    </div>
-                                                    <div className="col-md-4 project-sidebar">
-
-                                                        <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Lol Baba</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
-                                                        </div>
-
-                                                        <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
-                                                        </div>
-
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a className="inline-popup-close" href="#"><i className="fa fa-times"></i></a>
-                                        </div>
-
-                                    </div>
-                                </div>
-
                             </div>
 
                         </div>
@@ -638,100 +373,6 @@ class App extends Component {
             </div>
         </section>
 
-
-        <section id="subscribe">
-            <div className="overlay">
-                <div className="container section-padding">
-                    <div className="row">
-                        <div className="col-md-6">
-
-                            <header className="subscribe-header wow fadeInLeft">
-                                <h2>SUBSCRIBE TO UPDATE</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </header>
-
-                        </div>
-                        <div className="col-md-6">
-
-                            <form id="mc-form" className="form-inline wow fadeInRight">
-
-                                <input id="mc-email" type="email" placeholder="Enter email address" className="form-control input-label">
-                                </input>
-                                <button type="submit" className="btn">Subscribe</button>
-                                <label for="mc-email"></label>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <section id="blog">
-            <div className="container section-padding">
-
-                <header className="section-header text-center">
-                    <h2 className="wow fadeInDown">LATEST BLOG</h2>
-                    <p className="wow fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        <br /> been the industry's standard dummy text</p>
-                </header>
-
-                <div className="row">
-                    <div className="col-md-6">
-
-                        <div className="blog-post">
-                            <div className="blog-media">
-
-                                <img src="assets/img/blog/blog-one.jpg" alt="blog" />
-                            </div>
-                            <section className="blog-content">
-
-                                <header className="blog-title">
-                                    <a href="" className="blog-permalink"><h2>THE WINTER TAL’S</h2></a>
-                                    <a href="#" className="blog-author">Raf Redwan</a>
-                                    <div className="uline"></div>
-                                </header>
-
-                                <p className="post-excerpt">Lorem ipsum dol. Ut enim minim veniam, qub e eu fugiat anim id. thprinting andthe industrys standard </p>
-
-                                <div className="blog-meta">
-                                    <p><i className="fa fa-calendar"></i> 12 th September, 2015</p>
-                                </div>
-                            </section>
-                        </div>
-
-                    </div>
-                    <div className="col-md-6">
-
-                        <div className="blog-post">
-                            <div className="blog-media">
-
-                                <img src="assets/img/blog/blog-two.jpg" alt="blog" />
-                            </div>
-                            <section className="blog-content">
-
-                                <header className="blog-title">
-                                    <a className="blog-permalink" href=""><h2>THE WINTER TAL’S</h2></a>
-                                    <a href="#" className="blog-author">Raf Redwan</a>
-                                    <div className="uline"></div>
-                                </header>
-
-                                <p className="post-excerpt">Lorem ipsum dol. Ut enim minim veniam, qub e eu fugiat anim id. thprinting andthe industrys standard </p>
-
-                                <div className="blog-meta">
-                                    <p><i className="fa fa-calendar"></i> 12 th September, 2015</p>
-                                </div>
-                            </section>
-                        </div>
-
-                    </div>
-                </div>
-                <a href="blog.html" className="btn-rect btn-more wow fadeIn">View More</a>
-            </div>
-        </section>
 
 
         <section id="contact">
@@ -755,11 +396,8 @@ class App extends Component {
 
                         <div className="follow-us">
                             <h4>Contact me</h4>
-                            <a href=""><i className="fa fa-facebook"></i></a>
-                            <a href=""><i className="fa fa-dribbble"></i></a>
                             <a href=""><i className="fa fa-google-plus"></i></a>
                             <a href=""><i className="fa fa-linkedin"></i></a>
-                            <a href=""><i className="fa fa-feed"></i></a>
                         </div>
 
                     </div>
