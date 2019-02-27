@@ -219,7 +219,7 @@ class App extends Component {
                                 <div className="item item-width " data-groups='["all", "mobile"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
-                                        <div><img src="assets/img/item/java.png" height="45" width="25"/></div>
+                                        <div><img src="assets/img/item/Java.png" height="45" width="25"/></div>
                                             <a href="#portfolio-2" className="project-link inline-popup-trigger">
 
 
