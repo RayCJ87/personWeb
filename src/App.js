@@ -83,7 +83,7 @@ class App extends Component {
                     <div className="col-md-6 about-img wow fadeInRight">
 
                         <div className="block-center">
-                            <img src="assets/img/aboutme.jpg" alt="about" className="img-responsive" />
+                            <img src="assets/img/aboutme.png" alt="about" className="img-responsive" />
                         </div>
 
                     </div>
