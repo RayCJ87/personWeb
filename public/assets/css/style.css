@@ -975,6 +975,10 @@ img.mfp-img {
         margin: auto; } }
 
 /* Portfolio Hover */
+.port-image{
+  width: 3px;
+  height: auto;
+}
 .item-inner {
   position: relative;
   overflow: hidden; }
@@ -1408,30 +1412,7 @@ img.mfp-img {
   filter: alpha(opacity=80);
   opacity: 0.8;
   padding-left: 0; }
-#contact-form #message {
-  background-image: url("../img/line3.png");
-  background-position: bottom;
-  background-repeat: repeat;
-  border: medium none;
-  height: 100px;
-  line-height: 25px;
-  overflow: hidden;
-  resize: none;
-  padding-top: 20px;
-  margin-bottom: 25px; }
-#contact-form .btn-contact {
-  color: #636466;
-  text-align: center;
-  text-transform: uppercase;
-  border: 2px solid #00bfa5;
-  border-radius: 0;
-  background-color: transparent;
-  border-radius: 0;
-  border-width: 1px;
-  color: #ffffff; }
-@media only screen and (max-width: 767px) {
-  #contact-form {
-    margin-top: 50px; } }
+
 
 /*
 -----------------------------------------------
@@ -1439,7 +1420,7 @@ img.mfp-img {
 -----------------------------------------------
  */
 #footer {
-  background-color: #282828;
+  background-color: #5E5448;
   color: #fff; }
   #footer .section-padding {
     padding-top: 30px;

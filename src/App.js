@@ -29,6 +29,7 @@ class App extends Component {
 
                         <div className="col-sm-4 col-xs-6">
                             <a className="navbar-brand" href="index.html"><img src="assets/img/myName2.png" alt="site logo" /></a>
+
                         </div>
 
                         <div className="col-sm-8 col-xs-6">
@@ -37,7 +38,9 @@ class App extends Component {
                                     <li><a href="#welcome">HOME</a> </li>
                                     <li><a href="#about">ABOUT</a> </li>
                                     <li><a href="#portfolio">PORTFOLIO</a> </li>
-                                    <li><a href="#contact">CONTACT</a> </li>
+                                    <li><a>CONTACT</a></li>
+                                    <li><a href="https://linkedin.com/in/rayke"><i className="fa fa-linkedin"></i></a></li>
+                                    <li><a href="mailto:shihcke@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -169,15 +172,12 @@ class App extends Component {
                                 <div className="item item-width " data-groups='["all", "games"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
+                                            <div><img src="assets/img/item/nodejs.png" height="49" width="80"/></div>
                                             <a href="#portfolio-1" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
 
                                                 <img src="assets/img/item/jbgame4.png" alt="Featured Work" height="280" width="331" />
 
-                                                <div className="item-info text-left">
-                                                    <h4>Jurrasic Brawl</h4>
-                                                    <div className="uline"></div>
-                                                </div>
+
                                             </a>
                                         </div>
 
@@ -191,18 +191,18 @@ class App extends Component {
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Name:</h2>
+                                                            <h2>Name</h2>
                                                             <p className="client-name">Jurrasic Brawl</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Description:</h2>
+                                                            <h2>Description</h2>
                                                             <p className="task-name">Jurassic Brawl is a classic 2D multiplayer game in the vein of Nintendo's Super Smash Bros.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">Games</p>
+                                                            <h2>Stack</h2>
+                                                            <p className="cat-name">Node.js, Express, Socket.io, Phaser, MongoDB</p>
                                                         </div>
 
                                                         <a href="https://github.com/RayCJ87/jurassic_brawl" className="btn-rect btn-more">View Project</a>
@@ -219,15 +219,13 @@ class App extends Component {
                                 <div className="item item-width " data-groups='["all", "mobile"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
+                                        <div><img src="assets/img/item/java.png" height="45" width="25"/></div>
                                             <a href="#portfolio-2" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
+
 
                                                 <img src="assets/img/item/vcapp.png" alt="Featured Work" height="280" width="331" />
 
-                                                <div className="item-info text-left">
-                                                    <h4>Visit Canada</h4>
-                                                    <div className="uline"></div>
-                                                </div>
+
                                             </a>
                                         </div>
 
@@ -241,18 +239,18 @@ class App extends Component {
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Name:</h2>
+                                                            <h2>Name</h2>
                                                             <p className="client-name">Visit Canada</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Description:</h2>
+                                                            <h2>Description</h2>
                                                             <p className="task-name">A basic Canaadian city information app for travelers. Built with Java for Android.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">Mobile Applicaitons</p>
+                                                            <h2>Stack</h2>
+                                                            <p className="cat-name">Java</p>
                                                         </div>
 
                                                         <a href="https://github.com/RayCJ87/VisitCanada" className="btn-rect btn-more">View Project</a>
@@ -269,15 +267,13 @@ class App extends Component {
                                 <div className="item item-width " data-groups='["all", "web"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
+                                            <div><img src="assets/img/item/ajax.png" height="48" width="90"/></div>
+
                                             <a href="#portfolio-3" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
+
 
                                                 <img src="assets/img/item/tweeterlogo.png" alt="Featured Work" height="280" width="331" />
 
-                                                <div className="item-info text-left">
-                                                    <h4>Tweeter</h4>
-                                                    <div className="uline"></div>
-                                                </div>
                                             </a>
                                         </div>
 
@@ -291,18 +287,18 @@ class App extends Component {
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Name:</h2>
+                                                            <h2>Name</h2>
                                                             <p className="client-name">Tweeter</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Description:</h2>
+                                                            <h2>Description</h2>
                                                             <p className="task-name">Tweeter is a simple, single-page Twitter clone.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">Web</p>
+                                                            <h2>Stack</h2>
+                                                            <p className="cat-name">Node.js, Express, MongoDB, JQuery, AJAX</p>
                                                         </div>
 
                                                         <a href="https://github.com/RayCJ87/tweeter" className="btn-rect btn-more">View Project</a>
@@ -319,15 +315,10 @@ class App extends Component {
                                 <div className="item item-width " data-groups='["all", "web"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
+                                            <div><img src="assets/img/item/react.png" height="45" width="45"/></div>
                                             <a href="#portfolio-4" className="project-link inline-popup-trigger">
-                                                <span className="hover-bg"></span>
-
                                                 <img src="assets/img/item/chattyapp.png" alt="Featured Work" height="280" width="331" />
 
-                                                <div className="item-info text-left">
-                                                    <h4>Chatty app</h4>
-                                                    <div className="uline"></div>
-                                                </div>
                                             </a>
                                         </div>
 
@@ -341,18 +332,18 @@ class App extends Component {
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Name:</h2>
+                                                            <h2>Name</h2>
                                                             <p className="client-name">Chatty App</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Description:</h2>
+                                                            <h2>Description</h2>
                                                             <p className="task-name">The Chatty app is an user friendly, easy to use online chatroom made with React.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
-                                                            <h2>Category:</h2>
-                                                            <p className="cat-name">Web</p>
+                                                            <h2>Stack</h2>
+                                                            <p className="cat-name">Node.js, Express, React, Sass</p>
                                                         </div>
 
                                                         <a href="https://github.com/RayCJ87/ChattyApp" className="btn-rect btn-more">View Project</a>
@@ -376,68 +367,6 @@ class App extends Component {
 
 
 
-        <section id="contact">
-            <div className="container section-padding">
-
-                <header className="section-header text-center">
-                    <h2 className="wow fadeInDown">GET IN TOUCH</h2>
-                    <p className="wow fadeInUp"></p>
-                </header>
-
-                <div className="row">
-                    <div className="col-sm-6 col-md-4">
-                        <div className="footer-logo">
-
-                            <img src="assets/img/myName3.png" alt="logo" />
-                        </div>
-
-                        <p className="footer-about-text">
-                          Business, Technology, Creativity with Passion.
-                        </p>
-
-                        <div className="follow-us">
-                            <h4>Contact me <br/><a href="https://linkedin.com/in/rayke"><i className="fa fa-linkedin"></i></a></h4>
-
-                        </div>
-
-                    </div>
-                    <div className="col-sm-6 col-md-offset-2 col-md-6">
-
-                        <form id="contact-form" action="assets/inc/send.php" method="post" name="send">
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <div className="form-group">
-
-                                        <label for="name">Your Name</label>
-                                        <input id="name" name="name" placeholder="Full Name" className="form-control requiredField name input-label" type="text">
-                                        </input>
-                                    </div>
-                                </div>
-                                <div className="col-sm-6">
-                                    <div className="form-group">
-
-                                        <label for="mail">Email</label>
-                                        <input id="mail" name="email" placeholder="E-mail" className="form-control requiredField email input-label" type="text">
-                                        </input>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="form-group">
-
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" placeholder="Message" className="form-control requiredField input-label"></textarea>
-
-                            </div>
-                            <p>
-                                <button name="submit" type="submit" className="btn btn-contact">SEND MAIL</button>
-                            </p>
-                        </form>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
 
         <footer id="footer">
             <div className="container section-padding">
@@ -454,7 +383,9 @@ class App extends Component {
                             <a href="#home">HOME</a>
                             <a href="#about">ABOUT</a>
                             <a href="#portfolio">PORTFOLIO</a>
-                            <a href="#contact">CONTACT</a>
+                            CONTACT
+                            <a href="https://linkedin.com/in/rayke"> &nbsp; &nbsp;<i className="fa fa-linkedin"></i></a>
+                            <a href="mailto:shihcke@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                         </nav>
 
                     </div>
