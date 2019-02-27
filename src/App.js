@@ -48,9 +48,9 @@ class App extends Component {
                     <div className="row">
 
                         <div className="col-sm-12 welcome-heading">
-                            <h1 className="welcome-title wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="0.5s"><span>Full Stack Developer</span> <br /> Web developer based in Toronto, ON.</h1>
-                            <p className="welcome-text wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.5s">Destibulum at magna tellus. Vivamus sagittis et nunc I am aliquet. Viva
-                                <br/> mus porta Vestibulum at magna tellus.</p>
+                            <h1 className="welcome-title wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="0.5s"><span>Full Stack Developer</span> <br /> based in Toronto, ON.</h1>
+                            <p className="welcome-text wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.5s">The portfolio of Ray Ke
+                                <br/> </p>
                         </div>
 
                     </div>
@@ -68,11 +68,12 @@ class App extends Component {
                         <header className="about-header text-left">
                             <h2> RAY KE</h2>
                         </header>
-                        I am a full stack developer based in beautiful Toronto, Canada.
+                        I enjoy solving problems with technical knowledge and commercial skills. Former B2B account manager with extensive vision and business acumen in tech-driven industries. I am passionate at creating commercial values with science and engineering know-how. Highly interested and experienced in software and mobile apps for commercial applications.
 
                         <p className="about-text">
                         </p>
-                        <a href="#" class="btn-rect btn-about">Resume</a>
+
+                        <a href="assets/resume-port.pdf" className="btn-rect btn-about">Resume</a>
 
 
                     </div>
@@ -165,13 +166,13 @@ class App extends Component {
 
                             <div id="pfolio-content">
 
-                                <div className="item item-width " data-groups='["all", "web", "games"]'>
+                                <div className="item item-width " data-groups='["all", "games"]'>
                                     <div className="item-wrap">
                                         <div className="item-inner">
                                             <a href="#portfolio-1" className="project-link inline-popup-trigger">
                                                 <span className="hover-bg"></span>
 
-                                                <img src="assets/img/item/jbgame.png" alt="Featured Work" height="280" width="331" />
+                                                <img src="assets/img/item/jbgame4.png" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
                                                     <h4>Jurrasic Brawl</h4>
@@ -185,26 +186,26 @@ class App extends Component {
                                                 <div className="row">
                                                     <div className="col-md-8 project-main">
 
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
+                                                        <img src="assets/img/portfolio/project-view/jbcontent.png" alt="" />
                                                     </div>
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Sam Johad</p>
+                                                            <h2>Name:</h2>
+                                                            <p className="client-name">Jurrasic Brawl</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
+                                                            <h2>Description:</h2>
+                                                            <p className="task-name">Jurassic Brawl is a classic 2D multiplayer game in the vein of Nintendo's Super Smash Bros.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
                                                             <h2>Category:</h2>
-                                                            <p className="cat-name">Print Design</p>
+                                                            <p className="cat-name">Games</p>
                                                         </div>
 
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
+                                                        <a href="https://github.com/RayCJ87/jurassic_brawl" className="btn-rect btn-more">View Project</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -221,7 +222,7 @@ class App extends Component {
                                             <a href="#portfolio-2" className="project-link inline-popup-trigger">
                                                 <span className="hover-bg"></span>
 
-                                                <img src="assets/img/item/portfolio-two.jpg" alt="Featured Work" height="280" width="331" />
+                                                <img src="assets/img/item/vcapp.png" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
                                                     <h4>Visit Canada</h4>
@@ -235,26 +236,26 @@ class App extends Component {
                                                 <div className="row">
                                                     <div className="col-md-8 project-main">
 
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
+                                                        <img src="assets/img/portfolio/project-view/vccontent.png" alt="" />
                                                     </div>
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Jane Joe</p>
+                                                            <h2>Name:</h2>
+                                                            <p className="client-name">Visit Canada</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
+                                                            <h2>Description:</h2>
+                                                            <p className="task-name">A basic Canaadian city information app for travelers. Built with Java for Android.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
                                                             <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
+                                                            <p className="cat-name">Mobile Applicaitons</p>
                                                         </div>
 
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
+                                                        <a href="https://github.com/RayCJ87/VisitCanada" className="btn-rect btn-more">View Project</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -271,10 +272,10 @@ class App extends Component {
                                             <a href="#portfolio-3" className="project-link inline-popup-trigger">
                                                 <span className="hover-bg"></span>
 
-                                                <img src="assets/img/item/portfolio-three.jpg" alt="Featured Work" height="280" width="331" />
+                                                <img src="assets/img/item/tweeterlogo.png" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
-                                                    <h4>RAF REDWAN</h4>
+                                                    <h4>Tweeter</h4>
                                                     <div className="uline"></div>
                                                 </div>
                                             </a>
@@ -285,26 +286,26 @@ class App extends Component {
                                                 <div className="row">
                                                     <div className="col-md-8 project-main">
 
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
+                                                        <img src="assets/img/portfolio/project-view/tweetercontent.png" alt="" />
                                                     </div>
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Pane poe</p>
+                                                            <h2>Name:</h2>
+                                                            <p className="client-name">Tweeter</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
+                                                            <h2>Description:</h2>
+                                                            <p className="task-name">Tweeter is a simple, single-page Twitter clone.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
                                                             <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
+                                                            <p className="cat-name">Web</p>
                                                         </div>
 
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
+                                                        <a href="https://github.com/RayCJ87/tweeter" className="btn-rect btn-more">View Project</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -321,7 +322,7 @@ class App extends Component {
                                             <a href="#portfolio-4" className="project-link inline-popup-trigger">
                                                 <span className="hover-bg"></span>
 
-                                                <img src="assets/img/item/portfolio-four.jpg" alt="Featured Work" height="280" width="331" />
+                                                <img src="assets/img/item/chattyapp.png" alt="Featured Work" height="280" width="331" />
 
                                                 <div className="item-info text-left">
                                                     <h4>Chatty app</h4>
@@ -335,26 +336,26 @@ class App extends Component {
                                                 <div className="row">
                                                     <div className="col-md-8 project-main">
 
-                                                        <img src="assets/img/portfolio/project-view/portfolio-1.jpg" alt="" />
+                                                        <img src="assets/img/portfolio/project-view/chattycontent.png" alt="" />
                                                     </div>
                                                     <div className="col-md-4 project-sidebar">
 
                                                         <div className="project-sb-widget project-client">
-                                                            <h2>Client:</h2>
-                                                            <p className="client-name">Dongoni</p>
+                                                            <h2>Name:</h2>
+                                                            <p className="client-name">Chatty App</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-task">
-                                                            <h2>Task:</h2>
-                                                            <p className="task-name">A4 SIZE BROCHURE DESIGN</p>
+                                                            <h2>Description:</h2>
+                                                            <p className="task-name">The Chatty app is an user friendly, easy to use online chatroom made with React.</p>
                                                         </div>
 
                                                         <div className="project-sb-widget project-category">
                                                             <h2>Category:</h2>
-                                                            <p className="cat-name">identity</p>
+                                                            <p className="cat-name">Web</p>
                                                         </div>
 
-                                                        <a href="#" className="btn-rect btn-more">View Project</a>
+                                                        <a href="https://github.com/RayCJ87/ChattyApp" className="btn-rect btn-more">View Project</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -387,7 +388,7 @@ class App extends Component {
                     <div className="col-sm-6 col-md-4">
                         <div className="footer-logo">
 
-                            <img src="assets/img/myName2.png" alt="logo" />
+                            <img src="assets/img/myName3.png" alt="logo" />
                         </div>
 
                         <p className="footer-about-text">
@@ -395,9 +396,8 @@ class App extends Component {
                         </p>
 
                         <div className="follow-us">
-                            <h4>Contact me</h4>
-                            <a href=""><i className="fa fa-google-plus"></i></a>
-                            <a href=""><i className="fa fa-linkedin"></i></a>
+                            <h4>Contact me <br/><a href="https://linkedin.com/in/rayke"><i className="fa fa-linkedin"></i></a></h4>
+
                         </div>
 
                     </div>
@@ -445,7 +445,7 @@ class App extends Component {
                     <div className="col-md-6">
                         <div className="copyright">
 
-                            <p>&copy; Ray Ke</p>
+                            <p>&copy; Ray Ke  2019</p>
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -454,7 +454,6 @@ class App extends Component {
                             <a href="#home">HOME</a>
                             <a href="#about">ABOUT</a>
                             <a href="#portfolio">PORTFOLIO</a>
-                            <a href="#blog">BLOG</a>
                             <a href="#contact">CONTACT</a>
                         </nav>
 

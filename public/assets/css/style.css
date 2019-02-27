@@ -162,7 +162,7 @@ footer {
   margin-top: 0; }
 
 .featured-item .hover-bg, .item-inner .hover-bg {
-  background-color: rgba(0, 191, 165, 0.9);
+  background-color: #a5e0dd;
   border: 8px solid #ffffff;
   height: 90%;
   width: 90%;
@@ -171,8 +171,9 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  transition-duration: .5s;
-  opacity: 0; }
+  transition-duration: .4s;
+  opacity: 0;
+   }
 
 .featured-item:hover .hover-bg, .item-inner:hover .hover-bg {
   transform: translate(-50%, -50%) scale(1);
@@ -465,7 +466,7 @@ img.mfp-img {
   width: 100%; }
 
 .navbar-default {
-  background-color: transparent;
+  background-color: #ffffff;
   border: 0;
   border-radius: 0px;
   margin-bottom: 0px;
@@ -519,7 +520,7 @@ img.mfp-img {
   position: relative; }
   #welcome .scroll-down {
     color: #00bfa5;
-    text-transform: uppercase;
+
     position: absolute;
     left: 50%;
     bottom: 40px;
@@ -562,19 +563,19 @@ img.mfp-img {
   100% {
     opacity: 1; } }
 .welcome-inner .welcome-heading {
-  color: #6d6e71; }
+  color: #ffffff; }
   .welcome-inner .welcome-heading .welcome-title {
     font-size: 50px;
     font-weight: bold;
-    line-height: 67px;
-    text-transform: uppercase; }
+    line-height: 67px; }
     @media only screen and (max-width: 767px) {
       .welcome-inner .welcome-heading .welcome-title {
-        font-size: 24px;
+        font-size: 30px;
         line-height: normal; } }
     .welcome-inner .welcome-heading .welcome-title > span {
-      color: #00bfa5; }
+      color: #ffec8b; }
 .welcome-inner .welcome-text {
+  font-size: 20px;
   letter-spacing: 2px;
   line-height: 26px; }
 
@@ -969,8 +970,9 @@ img.mfp-img {
         width: 48%; } }
     @media only screen and (max-width: 767px) {
       #pfolio-content .item {
-        width: 100%;
-        margin-bottom: 30px; } }
+        width: 105%;
+        max-height: 100vh;
+        margin: auto; } }
 
 /* Portfolio Hover */
 .item-inner {
@@ -1366,7 +1368,7 @@ img.mfp-img {
 /* Footer Logo and Social links */
 #contact {
   color: #ffffff;
-  background-color: #524E46; }
+  background-color: #5E5448; }
   #contact .footer-logo {
     margin-bottom: 12px; }
   #contact .footer-about-text {
