@@ -76,7 +76,7 @@ class App extends Component {
                         <p className="about-text">
                         </p>
 
-                        <a href="assets/resume-port.pdf" className="btn-rect btn-about">Resume</a>
+                        <a href="assets/Resume_Ke.pdf" className="btn-rect btn-about">Resume</a>
 
 
                     </div>
